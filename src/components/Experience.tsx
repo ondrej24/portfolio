@@ -1,11 +1,13 @@
-import { Experience as ExperienceType } from '../types';
-import styles from './Experience.module.css';
+import { Experience as ExperienceType } from "../types";
+import styles from "./Experience.module.css";
 
 interface ExperienceProps {
   experience: ExperienceType[];
 }
 
-export const Experience = ({ experience }: ExperienceProps): React.JSX.Element => {
+export const Experience = ({
+  experience,
+}: ExperienceProps): React.JSX.Element => {
   return (
     <section id="experience" className={styles.experience}>
       <div className="container">
@@ -19,7 +21,6 @@ export const Experience = ({ experience }: ExperienceProps): React.JSX.Element =
                   <div className={styles.company}>{exp.company}</div>
                   <div className={styles.period}>{exp.period}</div>
                 </div>
-                <p className={styles.description}>{exp.description}</p>
                 <ul className={styles.achievements}>
                   {exp.achievements.map((achievement, achIndex) => (
                     <li key={achIndex} className={styles.achievement}>

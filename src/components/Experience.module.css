@@ -15,7 +15,7 @@
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -31,7 +31,7 @@
 }
 
 .item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 8px;
@@ -80,12 +80,6 @@
   font-family: var(--font-mono);
 }
 
-.description {
-  color: var(--color-text-secondary);
-  margin-bottom: var(--spacing-sm);
-  line-height: 1.6;
-}
-
 .achievements {
   list-style: none;
   margin-bottom: var(--spacing-sm);
@@ -100,7 +94,7 @@
 }
 
 .achievement::before {
-  content: '✓';
+  content: "✓";
   position: absolute;
   left: 0;
   color: var(--color-primary);

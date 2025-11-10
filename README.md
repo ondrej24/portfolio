@@ -1,6 +1,6 @@
 # Portfolio Site
 
-A modern portfolio website built with React, TypeScript, and Vite.
+A modern portfolio website built with React, TypeScript, Vite and vibe.
 
 ## Quick Start
 
@@ -17,7 +17,7 @@ npm run build
 
 ## Customization
 
-Edit `/src/constants/content.ts` to update your personal information, skills, experience, and contact details.
+Edit `/src/constants/content.ts` to update information
 
 Edit `/src/styles/variables.css` to customize colors and styling.
 

@@ -9,7 +9,7 @@ export const content: Content = {
     role: "QA Engineer",
     tagline:
       "Building robust test automation frameworks and ensuring software quality",
-    avatarUrl: "/avatar.png",
+    avatarUrl: `${import.meta.env.BASE_URL}avatar.png`,
   },
 
   // =================

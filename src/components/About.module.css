@@ -54,8 +54,11 @@
 }
 
 .highlightText {
-  color: var(--color-text-secondary);
+  color: var(--color-text);
   line-height: 1.6;
+  text-align: center;
+  font-weight: 600;
+  font-size: var(--font-size-md);
 }
 
 @media (max-width: 768px) {

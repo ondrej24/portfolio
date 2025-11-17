@@ -7,8 +7,7 @@ export const content: Content = {
   hero: {
     name: "Ondřej",
     role: "QA Engineer",
-    tagline:
-      "Building robust test automation frameworks and ensuring software quality",
+    tagline: "Keep calm and ensure product's quality",
     avatarUrl: `${import.meta.env.BASE_URL}avatar.png`,
   },
 
@@ -21,11 +20,12 @@ export const content: Content = {
       "My background in Power Engineering equipped me with strong analytical thinking, problem-solving methodology, and most importantly, taught me how to learn effectively. These transferable skills enabled me to quickly transition into IT and master various testing tools and frameworks.",
     ],
     highlights: [
-      "Medior QA Engineer (might be interested in a junior developer role)",
-      "Business-focused testing with risk-based prioritization",
-      "Versatile across manual, automated, performance, and API testing",
-      "Strong analytical foundation from engineering background",
-      "Remote or Ostrava-based opportunities preferred",
+      "QA Engineer (3+ years)",
+      "Curious about junior dev roles 🤷🏻‍♂️",
+      "Remote | Ostrava, CZ",
+      "Business impact over bug count",
+      "Manual | Automated | Performance",
+      "Engineering roots, analytical mindset",
     ],
   },
 
@@ -75,11 +75,13 @@ export const content: Content = {
       company: "Freelancer",
       period: "03/2025 - Present",
       achievements: [
-        "Managed testing workload distribution and mentored junior team members",
-        "Led end-to-end automation testing strategy using Cypress and Playwright",
-        "Analyzed test metrics to identify quality trends and optimization opportunities",
-        "Oversaw onboarding and support for client portfolios",
-        "Performed AI agent reliability testing and validation using DeepEval framework",
+        "Lead end-to-end automation testing strategy",
+        "Manage testing workload distribution and mentor juniors",
+        "Set up automated tests on CI/CD and Grafana dashboards",
+        "Analyze test metrics to identify quality trends",
+        "Reduced test runtime by 40%",
+        "Oversee technical onboarding of new clients",
+        "Conduct bug triage based on business impact",
       ],
       technologies: [
         "TypeScript",
@@ -99,9 +101,10 @@ export const content: Content = {
       company: "Enmon Technologies s.r.o.",
       period: "01/2023 - 02/2025",
       achievements: [
-        "Developed and maintained automated test suites using TypeScript and Cypress",
-        "Created test scenarios covering functional, regression, and integration testing",
-        "Integrated automated tests into CI/CD pipelines for continuous quality validation",
+        "Developed and maintained automated test suite",
+        "Created test scenarios for automated tests",
+        "Built 100+ automated E2E Cypress tests",
+        "Set up automated tests on CI/CD",
         "Monitored test execution and application performance using Grafana",
         "Performed manual testing across web and mobile applications",
       ],
